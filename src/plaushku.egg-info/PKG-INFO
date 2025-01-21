@@ -1,6 +1,6 @@
 Metadata-Version: 2.2
 Name: plaushku
-Version: 0.1.0
+Version: 0.2.0
 Summary: A simple Robot Framework library for full-page screenshot comparison.
 Author-email: Kristijan Plaushku <info@plaushkusolutions.com>
 Keywords: robotframework,visual,testing

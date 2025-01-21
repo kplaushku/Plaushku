@@ -4,7 +4,7 @@ import time
 from PIL import Image, ImageChops
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-
+from robot.api.deco import keyword
 
 class PlaushkuKeywords:
     """
@@ -12,6 +12,7 @@ class PlaushkuKeywords:
     of entire web pages (including content outside the initial viewport).
     """
 
+    @keyword("Compare Web Page With Baseline")
     def compare_web_page_with_baseline(self, test_name, url, threshold=0):
         driver = None
         try:
