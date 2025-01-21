@@ -7,7 +7,7 @@ name = "plaushku"
 version = "0.1.0"
 description = "A simple Robot Framework library for full-page screenshot comparison."
 authors = [
-    { name="Your Name", email="you@example.com" }
+    { name="Kristijan Plaushku", email="info@plaushkusolutions.com" }
 ]
 requires-python = ">=3.7"
 keywords = ["robotframework", "visual", "testing"]

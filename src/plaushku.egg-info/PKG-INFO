@@ -1,0 +1,12 @@
+Metadata-Version: 2.2
+Name: plaushku
+Version: 0.1.0
+Summary: A simple Robot Framework library for full-page screenshot comparison.
+Author-email: Kristijan Plaushku <info@plaushkusolutions.com>
+Keywords: robotframework,visual,testing
+Classifier: Programming Language :: Python :: 3
+Classifier: Framework :: Robot Framework
+Requires-Python: >=3.7
+Requires-Dist: robotframework
+Requires-Dist: selenium>=4.0.0
+Requires-Dist: Pillow>=9.0.0
