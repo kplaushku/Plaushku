@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "plaushku"
+version = "0.1.0"
+description = "A simple Robot Framework library for full-page screenshot comparison."
+authors = [
+    { name="Your Name", email="you@example.com" }
+]
+requires-python = ">=3.7"
+keywords = ["robotframework", "visual", "testing"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Framework :: Robot Framework"
+]
+dependencies = [
+    "robotframework",
+    "selenium>=4.0.0",
+    "Pillow>=9.0.0"
+]
